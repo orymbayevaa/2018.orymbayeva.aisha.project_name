@@ -1,0 +1,3 @@
+include 'project_name.client'
+include 'project_name.controller'
+include 'project_name.stand'
