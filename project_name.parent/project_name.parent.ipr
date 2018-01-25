@@ -11,7 +11,16 @@
       <entry name="!?*.java" />
       <entry name="!?*.groovy" />
     </wildcardResourcePatterns>
-    <bytecodeTargetLevel target="1.6" />
+    <bytecodeTargetLevel target="1.6">
+      <module name="project_name.client_main" target="1.8" />
+      <module name="project_name.client_test" target="1.8" />
+      <module name="project_name.controller_main" target="1.8" />
+      <module name="project_name.controller_test" target="1.8" />
+      <module name="project_name.parent_main" target="1.8" />
+      <module name="project_name.parent_test" target="1.8" />
+      <module name="project_name.stand_main" target="1.8" />
+      <module name="project_name.stand_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="CopyrightManager" default="">
     <module2copyright />
@@ -70,12 +79,20 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/project_name.client/project_name.client.iml" filepath="$PROJECT_DIR$/project_name.client/project_name.client.iml" group="project_name.client" />
+      <module fileurl="file://$PROJECT_DIR$/project_name.client/project_name.client_main.iml" filepath="$PROJECT_DIR$/project_name.client/project_name.client_main.iml" group="project_name.client" />
+      <module fileurl="file://$PROJECT_DIR$/project_name.client/project_name.client_test.iml" filepath="$PROJECT_DIR$/project_name.client/project_name.client_test.iml" group="project_name.client" />
       <module fileurl="file://$PROJECT_DIR$/project_name.controller/project_name.controller.iml" filepath="$PROJECT_DIR$/project_name.controller/project_name.controller.iml" group="project_name.controller" />
+      <module fileurl="file://$PROJECT_DIR$/project_name.controller/project_name.controller_main.iml" filepath="$PROJECT_DIR$/project_name.controller/project_name.controller_main.iml" group="project_name.controller" />
+      <module fileurl="file://$PROJECT_DIR$/project_name.controller/project_name.controller_test.iml" filepath="$PROJECT_DIR$/project_name.controller/project_name.controller_test.iml" group="project_name.controller" />
       <module fileurl="file://$PROJECT_DIR$/project_name.parent.iml" filepath="$PROJECT_DIR$/project_name.parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_name.parent_main.iml" filepath="$PROJECT_DIR$/project_name.parent_main.iml" group="project_name.parent" />
+      <module fileurl="file://$PROJECT_DIR$/project_name.parent_test.iml" filepath="$PROJECT_DIR$/project_name.parent_test.iml" group="project_name.parent" />
       <module fileurl="file://$PROJECT_DIR$/project_name.stand/project_name.stand.iml" filepath="$PROJECT_DIR$/project_name.stand/project_name.stand.iml" group="project_name.stand" />
+      <module fileurl="file://$PROJECT_DIR$/project_name.stand/project_name.stand_main.iml" filepath="$PROJECT_DIR$/project_name.stand/project_name.stand_main.iml" group="project_name.stand" />
+      <module fileurl="file://$PROJECT_DIR$/project_name.stand/project_name.stand_test.iml" filepath="$PROJECT_DIR$/project_name.stand/project_name.stand_test.iml" group="project_name.stand" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SvnBranchConfigurationManager">
